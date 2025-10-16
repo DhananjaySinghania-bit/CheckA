@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhananjay Info</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 3px solid #00c6ff;
+      box-shadow: 0 0 25px rgba(0,198,255,0.6);
+      animation: floatImage 3s ease-in-out infinite;
+    }
+
+    @keyframes floatImage {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    h1 {
+      margin: 20px 0 5px;
+      font-size: 2em;
+      letter-spacing: 1px;
+      color: #00c6ff;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      font-weight: 400;
+      margin: 0;
+      color: #cccccc;
+    }
+
+    .skills {
+      margin-top: 40px;
+    }
+
+    .skills h3 {
+      font-size: 1.4em;
+      margin-bottom: 15px;
+      color: #00c6ff;
+    }
+
+    .skill-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.1em;
+    }
+
+    .skill-item div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 8px 0;
+    }
+
+    .skill-item i {
+      font-size: 1.8em;
+      margin-bottom: 5px;
+      color: #00c6ff;
+    }
+
+    .note {
+      margin: 50px 20px;
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 5px solid #00c6ff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 198, 255, 0.1);
+      text-align: left;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .note h3 {
+      color: #00c6ff;
+      margin-bottom: 10px;
+    }
+
+    .note p {
+      line-height: 1.7;
+      color: #ddd;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin: 40px 0;
+    }
+
+    .buttons a {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      color: white;
+      font-size: 1.8em;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .buttons a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .email { background-color: #D44638; } /* Gmail Red */
+    .phone { background-color: #34B7F1; } /* WhatsApp/Phone Blue */
+    .insta { background-color: #E1306C; } /* Instagram Pink */
+
+    footer {
+      font-size: 0.9em;
+      color: #aaaaaa;
+      padding-bottom: 25px;
+    }
+  </style>
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.ibb.co/tPpWNsxv/cropped-circle-image-3.png" alt="Profile Photo">
+    <h1>Dhananjay Info</h1>
+    <h2>Empowering Change through Knowledge and Action</h2>
+  </header>
+
+  <section class="skills">
+    <h3>Skills</h3>
+    <div class="skill-item">
+      <div><i class="fas fa-drafting-compass"></i> Architecting</div>
+      <div><i class="fab fa-html5"></i> HTML & CSS</div>
+      <div><i class="fas fa-brain"></i> AI Based Work</div>
+      <div><i class="fas fa-paint-brush"></i> Graphics Designer</div>
+      <div><i class="fas fa-plus-circle"></i> More...</div>
+    </div>
+  </section>
+
+  <div class="note">
+    <h3>Note</h3>
+    <p>
+      Hello! If you truly want to become successful, you must apply the <b>(wwwH)-rule</b> in your life. Without it, success will remain out of reach. People may misunderstand you, no matter which field you are in—whether it’s academics, your career, or any other area.<br><br>
+      Remember, success isn’t measured by how much money you have. True success comes when your actions inspire others or improve lives because of you.<br><br>
+      This <b>(wwwH)-rule</b> is unique and cannot be found on the internet or anywhere else—it has been created by me personally to help people.<br><br>
+      To understand what the (wwwH)-rule is and how to apply it in your daily life, contact us. 👇🏼
+    </p>
+  </div>
+
+  <div class="buttons">
+    <a href="mailto:iimmenseaiexperts@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
+    <a href="tel:9219671761" class="phone"><i class="fas fa-phone-alt"></i></a>
+    <a href="https://www.instagram.com/" class="insta"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <footer>
+    <p>© 2025 Dhananjay Info. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
